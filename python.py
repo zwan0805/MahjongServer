@@ -4,7 +4,7 @@ from PIL import Image
 from ultralytics import YOLO
 
 app = Flask(__name__)
-model = YOLO('best.pt')
+model = YOLO('best_154.pt')
 
 
 @app.route("/upload", methods=["POST"])
